@@ -1,0 +1,8 @@
+/cmake-build-debug/
+/CMakeLists.txt
+/.PVS-Studio/
+/.idea/modules.xml
+/.idea/misc.xml
+/.idea/sonarlint/issuestore/index.pb
+/.idea/.gitignore
+/.idea/Shapes.iml
