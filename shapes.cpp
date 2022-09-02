@@ -86,20 +86,6 @@ int main() {
         cin >> isBack;
     } while (isBack == 'S' || isBack == 's');
 
-    int size;
-    cin >> size;
-    square(size);
-    cout << "\n\n";
-    triangle1(size);
-    cout << "\n\n";
-    triangle3(size);
-    cout << "\n\n";
-    additionalShape(size);
-    cout << "\n\n";
-    triangle2(size);
-    cout << "\n\n";
-    triangle4();
-
     return 0;
 }
 
