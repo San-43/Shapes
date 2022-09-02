@@ -201,7 +201,7 @@ void printSpace(int a)
         printf(" ");
     }
 }
-/** Forma tipo juego de Mario.*/
+/** Forma tipo juego de Mario. */
 void additionalShape(int size)
 {
     int spaces = size - 1;
