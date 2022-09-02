@@ -44,6 +44,7 @@ int main() {
             cin.clear();
             cin >> option;
             if (isalnum(option) || isalpha(option)) {
+                system("cls");
                 if (isalpha(option)) {
                     option = toupper(option);
                     break;
