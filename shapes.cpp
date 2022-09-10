@@ -180,28 +180,23 @@ void triangle4() {
     }
 }
 
-void printHashtag(int a)
-{
-    for (int i = 0; i < a; i++)
-    {
+void printHashtag(int a) {
+    for (int i = 0; i < a; i++) {
         printf("#");
     }
 }
 
-void printSpace(int a)
-{
+void printSpace(int a) {
     for (int i = 0; i < a; i++)
     {
         printf(" ");
     }
 }
 /** Forma tipo juego de Mario. */
-void additionalShape(int size)
-{
+void additionalShape(int size) {
     int spaces = size - 1;
 
-    for (int i = 1; i <= size; i++)
-    {
+    for (int i = 1; i <= size; i++) {
         printSpace(spaces);
         printHashtag(i);
         printf("  ");
