@@ -86,9 +86,7 @@ int main() {
         cout << "Desea usted regresar al programa? S para SI, cualquier otra tecla para salir." << endl;
 
         cin >> isBack;
-        if (strcmp(isBack, "s") == 0 || strcmp(isBack, "S") == 0) {
-
-        }else {
+        if (strcmp(isBack, "s") != 0 && strcmp(isBack, "S") != 0) {
             cout << "\nBye...";
             break;
         }
