@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <cstring>
 
 void square(int size);
 void triangle1(int size);
@@ -15,7 +16,7 @@ using namespace std;
 
 int main() {
     char option;
-    char isBack;
+    char isBack[1];
 
     do {
         system("cls");
@@ -85,7 +86,13 @@ int main() {
         cout << "Desea usted regresar al programa? S para SI, cualquier otra tecla para salir." << endl;
 
         cin >> isBack;
-    } while (isBack == 'S' || isBack == 's');
+        if (strcmp(isBack, "s") == 0 || strcmp(isBack, "S") == 0) {
+
+        }else {
+            cout << "\nBye...";
+            break;
+        }
+    }while (true);
 
     return 0;
 }
@@ -100,10 +107,10 @@ int size() {
             cin.ignore(numeric_limits<int>::max(), '\n');
             cout << "\nError... Valor incorrecto...\n";
             continue;
-        } else {
+        }else {
             break;
         }
-    } while (true);
+    }while (true);
 
     return size;
 }
